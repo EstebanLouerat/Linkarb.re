@@ -33,9 +33,11 @@ function App() {
       </div>
       <div className="buttons">
         {/* <a className="button">My Store</a> */}
-        <button onClick={handleEndoClick}>Endometriose</button>
+        <button onClick={handleEndoClick}>
+          Contribuer à la recherche contre l'endometriose
+        </button>
         <button className="contact-button" onClick={handleContactMeClick}>
-          Contact Me
+          Me contacter
         </button>
       </div>
       <div className="links">
