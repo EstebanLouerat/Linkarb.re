@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url("src\\assets\\forest.jpeg");
+  background-image: url("public\\forest.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

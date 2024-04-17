@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import "./App.css";
+import pdp from "../public/lilou_pdp.jpg";
 
 function App() {
   const handleEndoClick = () => {
@@ -24,11 +25,7 @@ function App() {
   return (
     <div className="card">
       <div className="header">
-        <img
-          src="src\assets\lilou_pdp.jpg"
-          alt="profile-picture"
-          className="logo"
-        />
+        <img src={pdp} alt="profile-picture" className="logo" />
         <h3 className="name">𝒩𝓎𝓂𝓅𝒽𝑒</h3>
         <p className="description">
           There is nothing stronger than a soft soul 🌱
@@ -37,7 +34,9 @@ function App() {
       <div className="buttons">
         {/* <a className="button">My Store</a> */}
         <button onClick={handleEndoClick}>Endometriose</button>
-        <button className="contact-button" onClick={handleContactMeClick}>Contact Me</button>
+        <button className="contact-button" onClick={handleContactMeClick}>
+          Contact Me
+        </button>
       </div>
       <div className="links">
         {/* <a
