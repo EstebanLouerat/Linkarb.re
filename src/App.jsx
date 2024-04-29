@@ -18,7 +18,7 @@ function App() {
   };
 
   const handleContactMeClick = () => {
-    const emailAddress = "liloubossedur@gmail.com";
+    const emailAddress = "nympheillustration@gmail.com";
     const mailtoLink = `mailto:${emailAddress}`;
     window.location.href = mailtoLink;
   };
