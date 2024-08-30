@@ -14,7 +14,7 @@ import pdp from "../public/lilou_pdp.jpg";
 function App() {
   const handleEndoClick = () => {
     window.location.href =
-      "https://www.fondation-endometriose.org/agir-contre-l-endometriose/soutenir-don/";
+      "https://www.fondation-endometriose.org/donner-recherche/don/";
   };
 
   const handleContactMeClick = () => {
