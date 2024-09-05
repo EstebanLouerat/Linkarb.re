@@ -7,6 +7,7 @@ import {
   faTiktok,
   faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./App.css";
 import pdp from "../public/lilou_pdp.jpg";
@@ -70,6 +71,7 @@ function App() {
           <FontAwesomeIcon icon={faTiktok} size="xl" inverse />
         </a>
       </div>
+      <SpeedInsights />
     </div>
   );
 }
