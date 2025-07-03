@@ -13,7 +13,7 @@
 .card {
   padding: 1em;
   border-radius: 3em;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(2px);
 }
 
 .contact-button {
@@ -63,6 +63,27 @@
 .description {
   margin: 0;
   max-width: 80vw;
+}
+
+/* .name {
+  color: rgb(104, 127, 89);
+} */
+
+.drawing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.drawing-container img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .links {

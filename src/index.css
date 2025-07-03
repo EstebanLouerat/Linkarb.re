@@ -6,9 +6,9 @@
 
   color: rgba(255, 255, 255, 0.87);
 
-  background-image: url("/forest.jpeg");
+  background-image: url("/bg_lilou.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   height: 100vh;
 
