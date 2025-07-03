@@ -70,7 +70,7 @@ function App() {
             <FontAwesomeIcon icon={faPinterest} size="xl" inverse />
           </a>
           <a
-            href="https://www.tiktok.com/@tinyforestnymph"
+            href="https://www.tiktok.com/@nympheillustration"
             target="_blank"
             rel="noopener noreferrer"
           >
