@@ -7,6 +7,7 @@ import {
   faTiktok,
   faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import ShinyText from "./components/ShinyText";
 
 import "./App.css";
 import pdp from "./assets/lilou_pdp.jpg";
@@ -89,7 +90,12 @@ function App() {
         <p>
           Fais avec amour par{" "}
           <a href="https://www.instagram.com/steub_l?igsh=NWc2YnJqMTF3YWN2">
-            @steub_l
+            <ShinyText
+              text="@steub_l"
+              disabled={false}
+              speed={3}
+              className="custom-class"
+            />
           </a>
         </p>
       </div>
